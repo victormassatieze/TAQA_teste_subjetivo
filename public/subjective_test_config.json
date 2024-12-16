@@ -1,0 +1,129 @@
+{
+    "homeInfo": {
+        "title": "",
+        "message": "Para cada página a seguir, serão apresentados um sinal de referência e quatro sinais de teste.\nLeia atentamente a pergunta em cada página.",
+        "buttonText": "Iniciar"
+    },
+    "questions": [
+        {
+            "name": "Sinal 1",
+            "description": "Nesta página: ouça o sinal de referência e avalie cada um dos sinais de teste de acordo com a sua similaridade com o sinal de referência.\nPara isso, desloque o marcador sobre a linha",
+            "id": 1,
+            "references": ["test_signals/ref/castanets.wav"],
+            "testSignals": ["test_signals/aac_12_decoded/castanets_12_decoded.wav", "test_signals/aac_24_decoded/castanets_24_decoded.wav", "test_signals/encodec_12_decoded/castanets_12_decoded.wav", "test_signals/encodec_24_decoded/castanets_24_decoded.wav"],
+            "prompts": {
+                "0": "",
+                "1": "",
+                "2": "",
+                "3": "",
+                "reference0": ""
+            },
+            "scale": {
+                "type": "continuous",
+                "alignment": "horizontal",
+                "labels": ["←Maior diferença", "Exatamente\nigual"],
+                "values": [20, 100],
+                "range": [0, 100]
+            },
+            "shuffleTestSignals": true,
+            "referenceEvaluated": false,
+            "submitButtonText": "Avaliar"
+        },
+        {
+            "name": "Sinal 2",
+            "description": "Nesta página: ouça o sinal de referência e avalie cada um dos sinais de teste de acordo com a sua similaridade com o sinal de referência.\nPara isso, desloque o marcador sobre a linha",
+            "id": 2,
+            "references": ["test_signals/ref/cello.wav"],
+            "testSignals": ["test_signals/aac_12_decoded/cello_12_decoded.wav", "test_signals/aac_24_decoded/cello_24_decoded.wav", "test_signals/encodec_12_decoded/cello_12_decoded.wav", "test_signals/encodec_24_decoded/cello_24_decoded.wav"],
+            "prompts": {
+                "0": "",
+                "1": "",
+                "2": "",
+                "3": "",
+                "reference0": ""
+            },
+            "scale": {
+                "type": "continuous",
+                "alignment": "horizontal",
+                "labels": ["←Maior diferença", "Exatamente\nigual"],
+                "values": [20, 100],
+                "range": [0, 100]
+            },
+            "shuffleTestSignals": true,
+            "referenceEvaluated": false,
+            "submitButtonText": "Avaliar"
+        },
+        {
+            "name": "Sinal 3",
+            "description": "Nesta página: ouça o sinal de referência e avalie cada um dos sinais de teste de acordo com a sua inteligibilidade.\nPara isso, desloque o marcador sobre a linha",
+            "id": 3,
+            "references": ["test_signals/ref/male.wav"],
+            "testSignals": ["test_signals/aac_12_decoded/male_12_decoded.wav", "test_signals/aac_24_decoded/male_24_decoded.wav", "test_signals/encodec_12_decoded/male_12_decoded.wav", "test_signals/encodec_24_decoded/male_24_decoded.wav"],
+            "prompts": {
+                "0": "",
+                "1": "",
+                "2": "",
+                "3": "",
+                "reference0": ""
+            },
+            "scale": {
+                "type": "continuous",
+                "alignment": "horizontal",
+                "labels": ["←Menor inteligibilidade", "Maior inteligibilidade"],
+                "values": [20, 100],
+                "range": [0, 100]
+            },
+            "shuffleTestSignals": true,
+            "referenceEvaluated": false,
+            "submitButtonText": "Avaliar"
+        },
+        {
+            "name": "Sinal 4",
+            "description": "Nesta página: ouça o sinal de referência e avalie cada um dos sinais de teste de acordo com a sua inteligibilidade.\nPara isso, desloque o marcador sobre a linha",
+            "id": 4,
+            "references": ["test_signals/ref/female.wav"],
+            "testSignals": ["test_signals/aac_12_decoded/female_12_decoded.wav", "test_signals/aac_24_decoded/female_24_decoded.wav", "test_signals/encodec_12_decoded/female_12_decoded.wav", "test_signals/encodec_24_decoded/female_24_decoded.wav"],
+            "prompts": {
+                "0": "",
+                "1": "",
+                "2": "",
+                "3": "",
+                "reference0": ""
+            },
+            "scale": {
+                "type": "continuous",
+                "alignment": "horizontal",
+                "labels": ["←Menor inteligibilidade", "Maior inteligibilidade"],
+                "values": [20, 100],
+                "range": [0, 100]
+            },
+            "shuffleTestSignals": true,
+            "referenceEvaluated": false,
+            "submitButtonText": "Avaliar"
+        },
+        {
+            "name": "Sinal 5",
+            "description": "Nesta página: ouça o sinal de referência e avalie cada um dos sinais de teste de acordo com a sua inteligibilidade.\nPara isso, desloque o marcador sobre a linha",
+            "id": 5,
+            "references": ["test_signals/ref/espontaneo.wav"],
+            "testSignals": ["test_signals/aac_12_decoded/espontaneo_12_decoded.wav", "test_signals/aac_24_decoded/espontaneo_24_decoded.wav", "test_signals/encodec_12_decoded/espontaneo_12_decoded.wav", "test_signals/encodec_24_decoded/espontaneo_24_decoded.wav"],
+            "prompts": {
+                "0": "",
+                "1": "",
+                "2": "",
+                "3": "",
+                "reference0": ""
+            },
+            "scale": {
+                "type": "continuous",
+                "alignment": "horizontal",
+                "labels": ["←Menor inteligibilidade", "Maior inteligibilidade"],
+                "values": [20, 100],
+                "range": [0, 100]
+            },
+            "shuffleTestSignals": true,
+            "referenceEvaluated": false,
+            "submitButtonText": "Avaliar"
+        }
+    ]
+}
